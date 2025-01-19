@@ -1,6 +1,6 @@
 # How to contribute?
 
-This is a completely free project that accepts contributions via pull requests on GitHub. This document is responsible for aligning contributions according to the standards established therein. If you have any questions, [open an issue](https://github.com/SilasAndradev/quiz_tkinter/issues/new).
+This is a completely free project that accepts contributions via pull requests on GitHub. This document is responsible for aligning contributions according to the standards established therein. If you have any questions, [open an issue](https://github.com/SilasAndradev/purchasing_system/issues/new).
 
 ## Steps
 
