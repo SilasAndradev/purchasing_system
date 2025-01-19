@@ -59,24 +59,7 @@ def realizarCompra(codigo, arquivo):
 
 
 def comprar(arquivo, root, frame, side_bar, funcionario):
-    #------Cores----#
-    Lavanda_Avermelhada = "#fff0f5"
-    Cinza_Escuro = "#363f4e"
-    Azul = "#3f78c1"
-    Branco_Neve = "#F0F0EC"
-    Sky_Blue = "#87ceeb"
-    e9ab89 = "#e9ab89"
-    Cinza = "#cccccc"
-    Cinza_não_tão_escuro = "#1e1e1e"
-    Preto = "#000000"
-    Branco = "#FFFFFF"
-    cor_principal = Cinza_Escuro
-    cor_secundaria = Cinza
-    cor_texto = Preto
-    cor_texto_fundo = Sky_Blue
-
-
-
+    cor_principal = "#363f4e" 
     root.config(bg=cor_principal)
     valor_total = 0
     código_inseridos = []
