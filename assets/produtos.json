@@ -2,135 +2,134 @@
     "produtos": [
         [
             1111,
-            "Maçã",
+            "Apple",
             15.9
         ],
-        [
-            1112,
-            "Picanha",
-            70
-        ],
-        [
-            1113,
-            "Chocolate",
-            15
-        ],
-        [
-            1114,
-            "Feijão",
-            9
-        ],
-        [
-            1115,
-            "Arroz",
-            10
-        ],
-        [
-            1116,
-            "Papel Higiênico",
-            7
-        ],
-        [
-            1117,
-            "Detergente",
-            8.5
-        ],
-        [
-            1118,
-            "Feijão Carioca",
-            10.9
-        ],
-        [
-            1119,
-            "Mamão",
-            7.9
-        ],
-        [
-            1120,
-            "Mentos",
-            4.0
-        ],
-        [
-            1121,
-            "Carne do Sol",
-            54.9
-        ],
-        [
-            1122,
-            "Goiabada",
-            3.75
-        ],
-        [
-            1123,
-            "Sabão de Coco",
-            10.87
-        ],
-        [
-            1124,
-            "Pão",
-            5.56
-        ],
-        [
-            1125,
-            "Pasta de Dente",
-            10.0
-        ],
-        [
-            1126,
-            "Teclado",
-            2034.0
-        ],
-        [
-            1127,
-            "Óculos",
-            300.0
-        ],
-        [
-            1128,
-            "Camisa Social",
-            100.0
-        ],
-        [
-            1129,
-            "Biscoito",
-            8.34
-        ],
-        [
-            1130,
-            "Ovo de Cordona",
-            5.23
-        ],
-        [
-            1131,
-            "Pão com Ovo",
-            2.3
-        ]
+    [
+    1112,
+    "Picanha",
+    70
     ],
-    "vendedores": [
-        [
-            2000,
-            "Silas Andrade",
-            "silas@2000"
-        ],
-        [
-            1001,
-            "Shara Emanuelly",
-            "shara@1001"
-        ],
-        [
-            1002,
-            "Guilherme Henrique",
-            "guilherme@1002"
-        ],
-        [
-            1003,
-            "Jadson Santos",
-            "jadson@1003"
-        ],
-        [
-            1004,
-            "Lucas da Hora",
-            "lucas@1004"
-        ]
+    [
+    1113,
+    "Chocolate",
+    15
+    ],
+    [
+    1114,
+    "Beans",
+    9
+    ],
+    [
+    1115,
+    "Rice",
+    10
+    ],
+    [
+    1116,
+    "Toilet Paper",
+    7
+    ],
+    [
+    1117,
+    "Detergent",
+    8.5
+    ],
+    [
+    1118,
+    "Carioca Beans",
+    10.9
+    ],
+    [
+    1119,
+    "Papaya",
+    7.9
+    ],
+    [
+    1120,
+    "Mentos",
+    4.0
+    ],
+    [
+    1121,
+    "Sun-dried meat",
+    54.9
+    ],
+    [
+    1122,
+    "Guava paste",
+    3.75
+    ],
+    [
+    1123,
+    "Coconut soap",
+    10.87
+    ],
+    [
+    1124,
+    "Bread",
+    5.56
+    ],
+    [
+    1125,
+    "Toothpaste",
+    10.0
+    ],
+    [
+    1126,
+    "Keyboard",
+    2034.0
+    ],
+    [
+    1127,
+    "Glasses",
+    300.0
+    ],
+    [
+    1128,
+    "Dress shirt",
+    100.0
+    ],
+    [
+    1129,
+    "Biscuit",
+    8.34
+    ],
+    [
+    1130,
+    "Cordon egg", 5.23
+    ],
+    [
+    1131,
+    "Bread with Egg",
+    2.3
     ]
-}
+    ],
+    "salespeople": [
+    [
+    2000,
+    "Silas Andrade",
+    "silas@2000"
+    ],
+    [
+    1001,
+    "Shara Emanuelly",
+    "shara@1001"
+    ],
+    [
+    1002,
+    "Guilherme Henrique",
+    "guilherme@1002"
+    ],
+    [
+    1003,
+    "Jadson Santos",
+    "jadson@1003"
+    ],
+    [
+    1004,
+    "Lucas da Hora",
+    "lucas@1004"
+    ]
+    ]
+    }

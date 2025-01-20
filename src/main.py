@@ -27,7 +27,7 @@ def logar():
 
     try:
         with open(produtos, encoding='utf-8') as file:
-            vendedores = json.load(file)["vendedores"]
+            vendedores = json.load(file)["salespeople"]
 
     except Exception as e:
         messagebox.showerror("Erro", f"Erro ao carregar os vendedores: {str(e)}")
