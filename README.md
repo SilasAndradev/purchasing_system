@@ -1,4 +1,4 @@
-# Quiz Tkinter
+# Purchasing System
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/SilasAndradev/purchasing_system?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/SilasAndradev/purchasing_system?style=for-the-badge)
@@ -25,7 +25,7 @@ Before you begin, make sure you have met the following requirements:
 
 - You have installed version 3.8.10 or higher of `Python`
 
-## 🚀 Installing tkinter quiz
+## 🚀 Installing purchasing system
 To install the purchasing_system, follow these steps:
 
 Linux and macOS:
