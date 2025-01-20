@@ -1,14 +1,14 @@
-# Purchasing System
+# shopping system
 
-![GitHub repo size](https://img.shields.io/github/repo-size/SilasAndradev/purchasing_system?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/SilasAndradev/purchasing_system?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/SilasAndradev/purchasing_system?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/SilasAndradev/purchasing_system?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/SilasAndradev/purchasing_system?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/SilasAndradev/shopping_system?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/SilasAndradev/shopping_system?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/SilasAndradev/shopping_system?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/SilasAndradev/shopping_system?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/SilasAndradev/shopping_system?style=for-the-badge)
 
 <img src="example.png" alt="Example">
 
-> The purchasing system has the following functions: adding products to the "database", listing the products in this "database" and making purchases by entering the product code
+> The shopping system has the following functions: adding products to the "database", listing the products in this "database" and making purchases by entering the product code
 
 ### Adjustments and improvements
 
@@ -25,31 +25,31 @@ Before you begin, make sure you have met the following requirements:
 
 - You have installed version 3.8.10 or higher of `Python`
 
-## 🚀 Installing purchasing system
-To install the purchasing_system, follow these steps:
+## 🚀 Installing shopping system
+To install the shopping_system, follow these steps:
 
 Linux and macOS:
 
 ```
-git clone https://github.com/SilasAndradev/purchasing_system.git
+git clone https://github.com/SilasAndradev/shopping_system.git
 ```
 
 Windows:
 
 ```
-git clone https://github.com/SilasAndradev/purchasing_system.git
+git clone https://github.com/SilasAndradev/shopping_system.git
 ```
 
 
 ## 📫 To login
 
-To log in to the purchasing system, you can find the username and password [HERE](assets/produtos.json), starting on line 109
+To log in to the shopping system, you can find the username and password [HERE](assets/produtos.json), starting on line 109
 
 
 
-## 📫 Contributing to purchasing_system
+## 📫 Contributing to shopping_system
 
-To contribute to purchasing_system, follow these steps:
+To contribute to shopping_system, follow these steps:
 
 1. Create a fork of this repository.
 2. Submit your commits in Portuguese or English.
