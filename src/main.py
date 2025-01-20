@@ -123,7 +123,7 @@ master = Tk()
 master.title("Sistema de Compras")
 master.geometry('800x600')
 master.minsize(600, 100)
-master.iconbitmap("TKINTER/Sistema_Compras/assets/icon.ico")
+master.iconbitmap("assets/icon.ico")
 
 
 #----------Cores----------#
@@ -155,7 +155,7 @@ button_image_passar = botoes_arredondados_image(120, 25, 20, cor_texto_fundo)
 button_photo_passar = ImageTk.PhotoImage(button_image_passar)
 
 #-------Constantes-------#
-produtos = 'TKINTER/Sistema_Compras/assets/produtos.json'
+produtos = 'assets/produtos.json'
 min_w = 50
 max_w = 200
 cur_width = min_w
@@ -167,12 +167,12 @@ home = Frame(master, bg=cor_principal, width=master.winfo_width(), height=master
 login = Frame(master, bg=cor_principal, width=master.winfo_width(), height=master.winfo_height())
 
 #----------Imagens---------#
-adicionar_icon = ImageTk.PhotoImage(Image.open("TKINTER/Sistema_Compras/assets/adicionar.png"))
-lista_icon = ImageTk.PhotoImage(Image.open("TKINTER/Sistema_Compras/assets/listar.png"))
-comprar_icon = ImageTk.PhotoImage(Image.open("TKINTER/Sistema_Compras/assets/comprar.png").resize((128,128)))
-home_icon = ImageTk.PhotoImage(Image.open('TKINTER/Sistema_Compras/assets/home.png').resize((40,40)))
-settings_icon = ImageTk.PhotoImage(Image.open('TKINTER/Sistema_Compras/assets/settings.png').resize((40,40)))
-sair_icon = ImageTk.PhotoImage(Image.open('TKINTER/Sistema_Compras/assets/sair.png').resize((40,40)))
+adicionar_icon = ImageTk.PhotoImage(Image.open("assets/adicionar.png"))
+lista_icon = ImageTk.PhotoImage(Image.open("assets/listar.png"))
+comprar_icon = ImageTk.PhotoImage(Image.open("assets/comprar.png").resize((128,128)))
+home_icon = ImageTk.PhotoImage(Image.open('assets/home.png').resize((40,40)))
+settings_icon = ImageTk.PhotoImage(Image.open('assets/settings.png').resize((40,40)))
+sair_icon = ImageTk.PhotoImage(Image.open('assets/sair.png').resize((40,40)))
 
 
 #----------Botões----------#
