@@ -127,16 +127,13 @@ master.iconbitmap("TKINTER/Sistema_Compras/assets/icon.ico")
 
 
 #----------Cores----------#
-Lavanda_Avermelhada = "#fff0f5"
 Cinza_Escuro = "#363f4e"
-Azul = "#3f78c1"
+
 Branco_Neve = "#F0F0EC"
 Sky_Blue = "#87ceeb"
-e9ab89 = "#e9ab89"
 Cinza = "#cccccc"
-Cinza_não_tão_escuro = "#1e1e1e"
 Preto = "#000000"
-Branco = "#FFFFFF"
+
 cor_principal = Cinza_Escuro
 cor_secundaria = Cinza
 cor_texto = Preto
@@ -207,22 +204,6 @@ side_bar.bind('<Enter>', lambda e: expand())
 side_bar.bind('<Leave>', lambda e: contract())
 
 side_bar.grid_propagate(False)
-
-#---------Settings-------#
-options = [ 
-        Cinza_Escuro, 
-        Azul, 
-        Branco_Neve, 
-        Lavanda_Avermelhada,
-        Sky_Blue,
-        e9ab89,
-        Cinza,
-        Cinza_não_tão_escuro,
-        Preto,
-        Branco
-        ]
-        
-
 
 #-----------login---------#
 #login.grid(row=0, column=0, rowspan=5, columnspan=5)
