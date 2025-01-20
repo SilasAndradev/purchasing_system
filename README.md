@@ -41,6 +41,12 @@ git clone https://github.com/SilasAndradev/purchasing_system.git
 ```
 
 
+## 📫 To login
+
+To log in to the purchasing system, you can find the username and password [HERE](assets\produtos.json), starting on line 109
+
+
+
 ## 📫 Contributing to purchasing_system
 
 To contribute to purchasing_system, follow these steps:
