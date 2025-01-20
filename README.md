@@ -1,24 +1,23 @@
 # Quiz Tkinter
 
-![GitHub repo size](https://img.shields.io/github/repo-size/SilasAndradev/quiz_tkinter?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/SilasAndradev/quiz_tkinter?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/SilasAndradev/quiz_tkinter?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/SilasAndradev/quiz_tkinter?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/SilasAndradev/quiz_tkinter?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/SilasAndradev/purchasing_system?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/SilasAndradev/purchasing_system?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/SilasAndradev/purchasing_system?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/SilasAndradev/purchasing_system?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/SilasAndradev/purchasing_system?style=for-the-badge)
 
 <img src="example.png" alt="Example">
 
-> The quiz asks questions with 5 alternatives and counts the correct answers
+> The purchasing system has the following functions: adding products to the "database", listing the products in this "database" and making purchases by entering the product code
 
 ### Adjustments and improvements
 
 The project is still under development and the next updates will focus on the following tasks:
 
 - [x] Add button functionality
-- [x] Organize the questions and alternatives on the screen
-- [x] Count the hits
-- [ ] Add a timer
-- [ ] Improve the interface
+- [x] Arrange buttons on the screen
+- [x] Install login system
+- [ ] Add functions in the settings tab
 
 ## 💻 Prerequisites
 
@@ -27,27 +26,27 @@ Before you begin, make sure you have met the following requirements:
 - You have installed version 3.8.10 or higher of `Python`
 
 ## 🚀 Installing tkinter quiz
-To install the quiz_tkinter, follow these steps:
+To install the purchasing_system, follow these steps:
 
 Linux and macOS:
 
 ```
-git clone https://github.com/SilasAndradev/quiz_tkinter.git
+git clone https://github.com/SilasAndradev/purchasing_system.git
 ```
 
 Windows:
 
 ```
-git clone https://github.com/SilasAndradev/quiz_tkinter.git
+git clone https://github.com/SilasAndradev/purchasing_system.git
 ```
 
 
-## 📫 Contributing to quiz_tkinter
+## 📫 Contributing to purchasing_system
 
-To contribute to quiz_tkinter, follow these steps:
+To contribute to purchasing_system, follow these steps:
 
 1. Create a fork of this repository.
-2. Submit your commits in Portuguese.
+2. Submit your commits in Portuguese or English.
 3. Enter a short summary of what was added.
 4. Request a pull request.
 
