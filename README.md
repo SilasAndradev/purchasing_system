@@ -1,4 +1,4 @@
-# shopping system
+# Shopping System
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/SilasAndradev/shopping_system?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/SilasAndradev/shopping_system?style=for-the-badge)
