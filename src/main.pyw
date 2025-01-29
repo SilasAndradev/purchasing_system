@@ -11,9 +11,6 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Sobe um nível
 
-
-
-
 #-----Funções-----#
 def botoes_arredondados_image(width, height, radius, color):
     """
