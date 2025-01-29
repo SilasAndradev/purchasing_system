@@ -6,6 +6,12 @@ from botões.listar import listar
 from botões.comprar import comprar
 from botões.adicionar import adicionar
 from tkinter import messagebox
+import os
+
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Sobe um nível
+
+
 
 
 #-----Funções-----#
@@ -123,7 +129,8 @@ master = Tk()
 master.title("Sistema de Compras")
 master.geometry('800x600')
 master.minsize(600, 100)
-master.iconbitmap("assets/icon.ico")
+icon_path = os.path.join(BASE_DIR, 'assets', 'icon.ico')
+master.iconbitmap(icon_path)
 
 
 #----------Cores----------#
@@ -155,7 +162,8 @@ button_image_passar = botoes_arredondados_image(120, 25, 20, cor_texto_fundo)
 button_photo_passar = ImageTk.PhotoImage(button_image_passar)
 
 #-------Constantes-------#
-produtos = 'assets/produtos.json'
+produtos_path = os.path.join(BASE_DIR, 'assets', 'produtos.json')
+produtos = produtos_path
 min_w = 50
 max_w = 200
 cur_width = min_w
@@ -167,12 +175,23 @@ home = Frame(master, bg=cor_principal, width=master.winfo_width(), height=master
 login = Frame(master, bg=cor_principal, width=master.winfo_width(), height=master.winfo_height())
 
 #----------Imagens---------#
-adicionar_icon = ImageTk.PhotoImage(Image.open("assets/adicionar.png"))
-lista_icon = ImageTk.PhotoImage(Image.open("assets/listar.png"))
-comprar_icon = ImageTk.PhotoImage(Image.open("assets/comprar.png").resize((128,128)))
-home_icon = ImageTk.PhotoImage(Image.open('assets/home.png').resize((40,40)))
-settings_icon = ImageTk.PhotoImage(Image.open('assets/settings.png').resize((40,40)))
-sair_icon = ImageTk.PhotoImage(Image.open('assets/sair.png').resize((40,40)))
+adicionar_path = os.path.join(BASE_DIR, 'assets', 'adicionar.png')
+adicionar_icon = ImageTk.PhotoImage(Image.open(adicionar_path))
+
+lista_path = os.path.join(BASE_DIR, 'assets', 'listar.png')
+lista_icon = ImageTk.PhotoImage(Image.open(lista_path))
+
+comprar_path = os.path.join(BASE_DIR, 'assets', 'comprar.png')
+comprar_icon = ImageTk.PhotoImage(Image.open(comprar_path).resize((128,128)))
+
+home_path = os.path.join(BASE_DIR, 'assets', 'home.png')
+home_icon = ImageTk.PhotoImage(Image.open(home_path).resize((40,40)))
+
+settings_path = os.path.join(BASE_DIR, 'assets', 'settings.png')
+settings_icon = ImageTk.PhotoImage(Image.open(settings_path).resize((40,40)))
+
+sair_path = os.path.join(BASE_DIR, 'assets', 'sair.png')
+sair_icon = ImageTk.PhotoImage(Image.open(sair_path).resize((40,40)))
 
 
 #----------Botões----------#
